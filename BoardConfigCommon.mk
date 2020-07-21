@@ -90,7 +90,6 @@ BOARD_USES_ALSA_AUDIO := true
 
 # Bluetooth
 BOARD_HAS_QCA_BT_ROME := true
-BOARD_HAVE_BLUETOOTH_QCOM := true
 QCOM_BT_USE_BTNV := true
 
 # Camera
