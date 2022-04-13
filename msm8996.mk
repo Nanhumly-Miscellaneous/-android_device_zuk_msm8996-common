@@ -191,10 +191,6 @@ PRODUCT_PACKAGES += \
 # Extra
 $(call inherit-product-if-exists, vendor/extra/extra.mk)
 
-# For config.fs
-PRODUCT_PACKAGES += \
-    fs_config_files
-
 # fwk-detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
