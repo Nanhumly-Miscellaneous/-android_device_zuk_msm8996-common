@@ -113,8 +113,6 @@ USE_OPENGL_RENDERER := true
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
 MAX_EGL_CACHE_SIZE := 2048*1024
 
-OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
-
 # Exclude serif fonts for saving system.img size.
 EXCLUDE_SERIF_FONTS := true
 
