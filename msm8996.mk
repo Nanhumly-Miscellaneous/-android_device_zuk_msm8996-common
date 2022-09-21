@@ -157,10 +157,6 @@ PRODUCT_PACKAGES += \
     init.wlan.sh \
     ueventd.qcom.rc
 
-# Component overrides
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
-
 # ConfigPanel
 PRODUCT_PACKAGES += \
     ConfigPanel
