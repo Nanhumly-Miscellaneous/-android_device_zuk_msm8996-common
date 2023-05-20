@@ -189,6 +189,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2.vendor \
     android.hardware.drm-service.clearkey
 
+# Extra
+$(call inherit-product-if-exists, vendor/extra/extra.mk)
+
 # For config.fs
 PRODUCT_PACKAGES += \
     fs_config_files
