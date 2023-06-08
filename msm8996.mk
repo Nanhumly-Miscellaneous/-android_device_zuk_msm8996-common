@@ -182,6 +182,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ZukDoze
 
+# DPM
+PRODUCT_PACKAGES += \
+    libcutils_shim
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.2.vendor \
@@ -376,10 +380,6 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
-
-# VNDK
-PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcutils-v29.so
 
 # Vibrator
 PRODUCT_PACKAGES += \
